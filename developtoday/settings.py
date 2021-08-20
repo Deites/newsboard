@@ -83,10 +83,10 @@ WSGI_APPLICATION = 'developtoday.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'DevelopToday',
-        'USER': 'developtoday',
-        'PASSWORD': 'developtoday',
-        'HOST': 'localhost',
+        'NAME': 'd2qungim3fehiu',
+        'USER': 'etbykuevvytcie',
+        'PASSWORD': 'b5dd982da735680b623f09d35ba428f9417053a31fec920e918d7a644bfdd264',
+        'HOST': 'ec2-35-153-114-74.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
