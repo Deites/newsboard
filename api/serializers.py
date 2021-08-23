@@ -27,7 +27,7 @@ class VotedSerializer(serializers.ModelSerializer):
             attrs["post_voted"].votes = F("votes") + 1
             attrs["post_voted"].save()
             return super().validate(attrs)
-        return serializers.ValidationError()
+        raise serializers.ValidationError()
 
     class Meta:
         model = Voted
