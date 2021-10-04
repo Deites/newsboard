@@ -1,5 +1,7 @@
 from rest_framework import serializers
+
 from newsboard.models import Post, Comment, Voted
+
 from django.db.models import F
 
 
