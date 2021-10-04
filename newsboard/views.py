@@ -1,11 +1,13 @@
 from django.http import HttpResponseRedirect
 from django.views import generic
-from .models import Post, Comment, Voted
 from django.urls import reverse_lazy, reverse
 from django.db.models import F
 from django.shortcuts import get_object_or_404
-from .forms import RegisterForm
 from django.contrib.auth.decorators import login_required
+
+from .models import Post, Comment, Voted
+from .forms import RegisterForm
+
 
 
 class RegisterView(generic.CreateView):
